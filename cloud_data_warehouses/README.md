@@ -5,4 +5,4 @@ The sparkify ETL process pulls data from udacity stored in S3. This data provide
 **Which locations have the most listeners?** The advertizing department can use this information to target certain locations.
 
 ## Table schema Design
-A start schema is used with a Fact table called `songplays` and dimension tables called `users`, `songs`, `artists`, and `time`. This schema design provides the data analysts and data scientists the ability to efficiently pull the data based on there specific question without having to query all the data contained within the staging tables.
+A star schema is used with a Fact table called `songplays` and dimension tables called `users`, `songs`, `artists`, and `time`. This schema design provides the data analysts and data scientists the ability to efficiently pull the data based on there specific question without having to query all the data contained within the staging tables.
